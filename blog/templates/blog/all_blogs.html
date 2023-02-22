@@ -1,0 +1,8 @@
+<h1>ALL blog articles</h1>
+{% for posts in articles %}
+    <h2> {{ posts.title }} </h2>
+    <img src=" {{ posts.images.url }}" >
+    <h3>{{ posts.date }}</h3>
+    <h2>{{ posts.description }}</h2>
+    
+{% endfor %}
