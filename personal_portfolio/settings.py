@@ -113,6 +113,11 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    
+]
+
 MEDIA_URL =  "media/"
 MEDIA_ROOT = BASE_DIR / "media" # place to save all media files [videos, images] from all apps 
 #adds media folder to the base dir 
